@@ -1,0 +1,118 @@
+body {
+    background: #1b283d;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.light_text{
+    color: #f4f4f4;
+}
+
+.dark_text{
+    color: #1b283d;
+}
+
+.light_link {
+    color: grey;
+}
+
+.dark_link {
+    color: blue;
+}
+
+.profile {
+    padding-block-start: 18%
+}
+
+.profile h1 {
+    text-align: center;
+    font-size: 21px;
+}
+
+.profile p {
+    font-size: 16px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+}
+
+.profile img {
+    display: block;
+    margin: auto;
+    height: 240px;
+    width: 240px;
+}
+
+.nav{
+    list-style-type: none;
+    text-align: center;
+    float: center;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.nav a {
+    color: grey;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.contacts {
+    color: white;
+    float: center;
+    text-align: center;
+}
+
+.contacts a {
+    text-align: center;
+    display: inline-block;
+    width: 480px;
+    color: grey;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.contacts a:hover {
+    color: white;
+}
+
+.project_list_left .project_list_right {
+    background: #1b283d;    
+}
+
+.project_list_left .project_list_right p {
+    display: block;
+}
+
+.project_list_left .project_list_right a {
+    display: block;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+}
+
+.project_list_right .project_list_right a:hover { 
+    background: #dadada;
+}
+
+.footer {
+    position: fixed;
+    left: 48px;
+    bottom: 48px;
+}
+
+.footer a{
+    color: grey;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: white;
+}
+
