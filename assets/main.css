@@ -44,6 +44,12 @@ body {
     width: 240px;
 }
 
+@media (max-width:480px){
+    .profile p {
+        width: 80%;
+    }
+}
+
 .nav{
     list-style-type: none;
     text-align: center;
